@@ -1,0 +1,34 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto;
+}
+.heading>h1{
+    font-size: 100px;
+    color: aqua;
+    /* background-color: azure; */
+}
+.span{
+    margin-top: -60px;
+    font-size: 50px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  .btn{
+    padding: 10px;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 0px 10px black;
+  }
+  
